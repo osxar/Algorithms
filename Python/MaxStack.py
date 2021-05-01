@@ -27,19 +27,18 @@ class MaxStack:
     def top(self):
         return self.stack[-1]
 
-    def getMin(self): 
+    def getMax(self): 
         return self.maxValues[-1]
 
 
 obj = MaxStack()
 
-obj.push(2)
-obj.push(4)
-obj.push(8)
-obj.push(3)
+obj.push(7)
 obj.push(9)
+obj.push(1)
+obj.push(5)
 obj.pop()
 
-print(obj.getMin())
+print(obj.getMax())
 print(obj.stack)
 print(obj.maxValues)
