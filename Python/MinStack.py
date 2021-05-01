@@ -1,6 +1,6 @@
 
 """
-Design a stack that supports push, pop, top, and retrieving the minimu element in constant time.
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
 """
 
