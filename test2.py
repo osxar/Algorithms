@@ -289,3 +289,9 @@ def triplets(t, d):
                     break
             
     return count
+
+
+    const rr ={}
+    rr['0']=0
+
+    print(rr)

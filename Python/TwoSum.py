@@ -55,3 +55,23 @@ def sumsum(array,value):
     return False
 
 print(sumsum(nums,value))
+
+
+"""
+Optimal Solution, using Hash table (i.e objects)
+
+"""
+
+
+def two_sum_optm(array,value):
+    remainder={}
+    seize=len(array)
+
+    for index in (seize):
+        
+        if array[index] in remainder:
+            return index, remainder[array[index]]
+        else:
+            remainder[value-array[index]]=index
+
+print(two_sum_optm(nums,value))
