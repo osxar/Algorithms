@@ -20,3 +20,4 @@ def reverseLinkedList(head):
 
 
     return prev
+
