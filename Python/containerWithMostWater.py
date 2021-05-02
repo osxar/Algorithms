@@ -3,8 +3,8 @@ def containerWithMostWater(array):
     
     sieze = len(array)-1
 
-    if(sieze<1):
-        return False
+    if(sieze<2):
+        return 0
 
     waterCalculation = {}
     pointer=0
@@ -15,7 +15,7 @@ def containerWithMostWater(array):
         length = min(array[pointer],array[runner])
         width = abs(pointer-runner)
 
-        waterCalculation[length*width]= [pointer,runner]
+        waterCal culation[length*width]= [pointer,runner]
 
         runner+=1
 
